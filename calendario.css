@@ -1,0 +1,71 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #27adc5;
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#calendar-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para cada mes */
+.month {
+    background-color: rgba(95, 162, 167, 0.316);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.month h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #50aae6;
+}
+
+.days-of-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+}
+
+.day:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Aseguramos que las celdas del calendario sean del mismo tamaño */
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}

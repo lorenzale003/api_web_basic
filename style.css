@@ -1,0 +1,114 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabecera */
+.header {
+    background-color: #c6e5ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.header a:hover{
+    color:#2bf0fe;
+    text-shadow: #333;
+}
+
+.header-image {
+    
+    max-width: 15%;
+    height: auto;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #005bb5;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+/* Menú lateral */
+.sidebar {
+    width: 15%;
+    background: #f4f4f4;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+    color: #0078d7;
+}
+
+/* Contenido principal */
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #005bb5;
+    color: white;
+    margin-top: auto;
+}

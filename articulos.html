@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce Europa</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="articulos.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header class="header">
+        <img src="/img/logo1-removebg-preview (1).png" alt="Logo de Conoce Europa" class="header-image">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="principal.html">Portada</a></li>
+                <li><a href="articulos.html">Listado de Artículos</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="main-container">
+        <!-- Menú lateral -->
+        <aside class="sidebar">
+            <h3>¿Viajar por Europa?</h3>
+            <ul>
+                <li>
+                    <a href="https://www.booking.com/city/it/rome.es.html" target="_blank" rel="noopener noreferrer">
+                        Roma
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.booking.com/city/fr/paris.es.html" target="_blank" rel="noopener noreferrer">
+                        París
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.booking.com/city/de/berlin.es.html" target="_blank" rel="noopener noreferrer">
+                        Berlín
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Contenido principal -->
+        <main class="content">
+            <h1>Listado de Países Europeos</h1>
+            <!-- Contenedor dinámico para la tabla -->
+            <div id="countries_tabla"></div>
+                <!-- Archivo JavaScript -->
+            <script src="articulos.js"></script>
+        </main>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>© 2024 Conoce Europa | Diseñado por Francisco Herrera Lorenzale</p>
+    </footer>
+
+
+</body>
+</html>
